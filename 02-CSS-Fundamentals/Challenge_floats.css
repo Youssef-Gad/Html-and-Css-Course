@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 825px;
+  margin: 0 auto;
+  margin-top: 40px;
+  border: 4px solid black;
+  position: relative;
+}
+
+.product {
+  float: left;
+  width: 243px;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+
+.text {
+  margin-top: 20px;
+  margin-bottom: 8px;
+  clear: both;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.4;
+}
+
+aside {
+  float: right;
+  width: 243px;
+}
+
+.shoe-img {
+  width: 243px;
+  margin-right: 40px;
+  float: left;
+}
+
+.title {
+  text-align: center;
+  background-color: #f7f7f7;
+  text-transform: uppercase;
+  padding: 10px 0;
+}
+
+.price {
+  font-size: 24px;
+  float: left;
+}
+
+.free-shipping {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+  color: #777;
+  float: right;
+  margin-top: 8px;
+}
+
+.info:link {
+  color: black;
+  float: left;
+}
+
+.info:hover {
+  text-decoration: none;
+}
+
+.info:visited {
+  color: black;
+}
+
+.title-2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+.list {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+.add-cart {
+  color: white;
+  background-color: black;
+  border: none;
+  font-size: 25px;
+  text-transform: uppercase;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border-top: 4px solid black;
+}
+.add-cart:hover {
+  color: black;
+  background-color: white;
+}
+
+.sale {
+  background-color: #ec2f2f;
+  color: white;
+  font-weight: bold;
+  padding: 2px 10px;
+  display: inline-block;
+  position: absolute;
+  top: -15px;
+  left: -30px;
+  letter-spacing: 2px;
+}
+
+.boxes {
+  float: left;
+  margin: 15px 0;
+}
+
+.d-1,
+.d-2,
+.d-3,
+.d-4,
+.d-5,
+.d-6 {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  margin: 10px 5px;
+}
+
+.d-1 {
+  background-color: black;
+  margin-left: 0;
+}
+
+.d-2 {
+  background-color: blue;
+}
+
+.d-3 {
+  background-color: red;
+}
+
+.d-4 {
+  background-color: yellow;
+}
+
+.d-5 {
+  background-color: green;
+}
+
+.d-6 {
+  background-color: brown;
+}
